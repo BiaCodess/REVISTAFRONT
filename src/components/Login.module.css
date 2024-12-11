@@ -1,0 +1,110 @@
+/* Container principal */
+.fundo {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo na horizontal */
+    align-items: center; /* Centraliza o conteúdo na vertical */
+    min-height: 100vh; /* Garante que ocupe a altura total da tela */
+    background: linear-gradient(to bottom, #103a05, #000000); /* Degradê de verde para preto */
+  }
+  
+  /* Container do formulário */
+  .container {
+    width: 100%;
+    max-width: 400px; /* Largura máxima do formulário */
+    padding: 20px;
+    background-color: #ffffff; /* Cor de fundo do formulário (tom claro) */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombras sutis */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Estilo do título e parágrafo */
+  .container h1 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .container p {
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  /* Botão "Novo Usuário" */
+  button[type="button"]:first-child {
+    width: 100%; /* O botão ocupa toda a largura do container */
+    padding: 10px;
+    background-color: #28A745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 30px; /* Adiciona mais espaço entre o botão e o primeiro campo */
+  }
+  
+  /* Estilo ao passar o mouse sobre o botão */
+  button[type="button"]:first-child:hover {
+    background-color: #218838;
+  }
+  
+  /* Estilo para os campos de input */
+  .form-group {
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: left; /* Alinha o rótulo à esquerda */
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  
+  .form-group input:focus {
+    border-color: #28A745; /* Cor de borda ao focar no campo */
+  }
+  
+  /* Container dos botões "Limpar" e "Criar Usuário" */
+  .button-container {
+    display: flex;
+    justify-content: center; /* Centraliza os botões */
+    gap: 10px; /* Espaço entre os botões */
+    width: 100%;
+    margin-top: 20px; /* Espaço acima dos botões */
+  }
+  
+  /* Estilo dos botões "Limpar" e "Criar Usuário" */
+  button[type="button"]:nth-child(2),
+  button[type="button"]:nth-child(3) {
+    width: 48%; /* Largura de cada botão será 48% */
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Estilo ao passar o mouse sobre os botões */
+  button[type="button"]:nth-child(2):hover,
+  button[type="button"]:nth-child(3):hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,169 @@
+/* Estilos gerais para a página */
+
+.pagina {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, #103a05, #000000); /* Degradê de verde para preto */
+}
+  
+  /* Menu */
+  .menu {
+    background-color: #000000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Distribui os elementos com espaço entre eles */
+    align-items: center; /* Alinha verticalmente os elementos */
+    position: relative; /* Garante o controle de posicionamento dos elementos filhos */
+  }
+  
+  .menu h1 {
+    color: yellow;
+    margin: 0;
+    font-size: 24px;
+    font-family: "Segoe UI", Tahoma, Geneva, sans-serif;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    font-weight: 400;
+    position: absolute; /* Remove o título do fluxo normal */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Ajusta para o centro real */
+  }
+  
+  .perfil {
+    margin-right: 10px; /* Espaço à direita */
+  }
+  
+  .iconePerfil {
+    width: 40px; /* Tamanho do ícone */
+    height: 40px;
+    border-radius: 50%; /* Torna o ícone circular */
+    cursor: pointer; /* Indica interatividade */
+  }
+  
+  
+  .perfil {
+    margin-right: 10px; /* Adiciona um pouco de espaço no lado direito */
+  }
+  
+  .iconePerfil {
+    width: 40px; /* Tamanho do ícone */
+    height: 40px;
+    border-radius: 50%; /* Para fazer o ícone circular */
+    cursor: pointer; /* Para indicar interatividade */
+  }
+  
+  
+  /* Imagem */
+
+
+  .imagem img {
+    width: 100%; /* Faz a imagem ocupar toda a largura disponível */
+    height: 50vh; /* Mantém a proporção original da imagem */
+    object-fit: cover; /* Garante que a imagem cubra a área sem distorção */
+  }
+  
+  
+  /* Descrição */
+  .descricao {
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center; /* Centraliza o texto */
+     font-family: "Segoe UI", Tahoma, Geneva, sans-serif; /* Fonte limpa e moderna */
+    line-height: 1.6; /* Aumenta a altura da linha para uma leitura mais confortável */
+     max-width: 2000px; /* Limita a largura do parágrafo para maior legibilidade */
+     margin-left: 50px;
+     margin-right: 50px;
+  }
+  
+  
+  /* Container dos planos */
+  .planos {
+    display: flex;
+    justify-content: space-around; /* Espaço igual entre os planos */
+    margin-top: 40px;
+}
+  
+  /* Cada plano */
+  .plano {
+    background-color: white ;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 25%;
+    text-align: center;
+    transition: transform 0.3s ease;
+    border-radius: 18px;
+  }
+  
+  /* Hover para planos */
+  .plano:hover {
+    transform: translateY(-5px); /* Efeito de levitação ao passar o mouse */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Título do plano */
+  .plano h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: "Segoe UI", Tahoma, Geneva, sans-serif; /* Fonte limpa e moderna */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); /* Sombra suave para não pesar o visual */
+    font-weight: 400; /* Peso leve para um visual minimalista */
+  }
+  
+  /* Preço */
+  .preco {
+    font-size: 22px;
+    color: #28a745;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* Detalhes do plano (lista) */
+  .detalhes {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, sans-serif; /* Fonte limpa e moderna */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); /* Sombra suave para não pesar o visual */
+    font-weight: 400; /* Peso leve para um visual minimalista */
+
+  }
+  
+  .detalhes li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Botão de assinar */
+  .plano button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .plano button:hover {
+    background-color: #218838;
+  }
+  /* Ajustando a altura da página para ter mais espaço */
+.pagina {
+    min-height: 150vh; /* Aumenta a altura mínima da página para 120% da tela */
+  }
+
+  .titulo2{
+    font-family: "Segoe UI", Tahoma, Geneva, sans-serif; /* Fonte limpa e moderna */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); /* Sombra suave para não pesar o visual */
+    font-weight: 400; /* Peso leve para um visual minimalista */
+    color: yellow;
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
